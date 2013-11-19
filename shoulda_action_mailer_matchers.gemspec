@@ -3,7 +3,7 @@ require 'shoulda/matchers/action_mailer/version'
 
 Gem::Specification.new do |s|
   s.name        = "shoulda_action_mailer_matchers"
-  s.version     = Shoulda::Matchers::VERSION.dup
+  s.version     = Shoulda::Matchers::ActionMailer::VERSION.dup
   s.authors     = ["Christian Eichhorn"]
   s.date        = Time.now.strftime("%Y-%m-%d")
   s.email       = "c.eichhorn@webmasters.de"
