@@ -26,7 +26,6 @@ module Shoulda # :nodoc:
       class HaveSentEmailMatcher # :nodoc:
 
         def initialize(context)
-          ActiveSupport::Deprecation.warn 'The have_sent_email matcher is deprecated and will be removed in 2.0'
           @context = context
         end
 
